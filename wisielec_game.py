@@ -1,9 +1,8 @@
-import random
 import numpy as np
-from keras.models import Sequential
-from keras.layers import Dense, LSTM, Embedding
-from keras.preprocessing.text import Tokenizer
-from keras.utils import to_categorical
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, LSTM, Embedding
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.utils import to_categorical
 
 # Przygotowanie danych
 words = ["hangman", "python", "keras", "machine", "learning", "artificial", "intelligence", "neural", "network"]
